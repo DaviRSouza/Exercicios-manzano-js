@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+body{
+    background: rgb(0, 0, 0)
+}
+.cabecalho{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cabecalho h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    color: #b00000;
+}
+.esquerda {
+    display: flex;
+}
+.container{
+    margin-left: 50px;
+    height: 3em;
+    width: 3em;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
