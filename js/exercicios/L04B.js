@@ -9,5 +9,5 @@ export function L04B(){
         numero++;
     } while (numero <= 500);
     
-    console.log(`O somatório dos valores pares de 1 a 500 é: ${somatorio}`);    
+    alert(`O somatório dos valores pares de 1 a 500 é: ${somatorio}`);    
 }

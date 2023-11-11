@@ -5,8 +5,8 @@ export function L04D(){
         let graosNoQuadro = Math.pow(2, quadro - 1);
         totalDeGraos += graosNoQuadro;
     
-        console.log(`Quadro ${quadro}: ${graosNoQuadro} grãos`);
+        alert(`Quadro ${quadro}: ${graosNoQuadro} grãos`);
         quadro++;
     } while (quadro <= 64);
-    console.log(`Total de grãos: ${totalDeGraos}`);     
+    alert(`Total de grãos: ${totalDeGraos}`);     
 }

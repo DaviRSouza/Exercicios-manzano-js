@@ -3,14 +3,14 @@ export function L05I(){
     let primeiroTermo = 1;
     let segundoTermo = 1;
 
-    console.log("Série de Fibonacci até o décimo quinto termo:");
+    alert("Série de Fibonacci até o décimo quinto termo:");
 
-    console.log(primeiroTermo);
-    console.log(segundoTermo);
+    alert(primeiroTermo);
+    alert(segundoTermo);
 
     for (let i = 3; i <= termos; i++) {
         let proximoTermo = primeiroTermo + segundoTermo;
-        console.log(proximoTermo);
+        alert(proximoTermo);
         primeiroTermo = segundoTermo;
         segundoTermo = proximoTermo;
     }

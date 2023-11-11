@@ -3,7 +3,7 @@ export function L04A(){
 
     do {
         let quadrado = numero * numero;
-        console.log(`${numero} ao quadrado é ${quadrado}`);
+        alert(`${numero} ao quadrado é ${quadrado}`);
         numero++;
     } while (numero <= 200);    
 }

@@ -3,7 +3,7 @@ export function L04C(){
 
     do {
         if (numero % 4 === 0) {
-            console.log(numero);
+            alert(numero);
         }
         numero++;
     } while (numero < 200);    

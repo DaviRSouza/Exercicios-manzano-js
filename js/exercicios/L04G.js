@@ -15,5 +15,5 @@ export function L04G(){
         numero += 2;
     } while (numero <= 10);
     
-    console.log(`O resultado do fatorial dos valores ímpares de 1 a 10 é: ${resultadoFatorial}`);
+    alert(`O resultado do fatorial dos valores ímpares de 1 a 10 é: ${resultadoFatorial}`);
 }    

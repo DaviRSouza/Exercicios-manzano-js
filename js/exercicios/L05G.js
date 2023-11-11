@@ -8,7 +8,6 @@ export function L05G(){
             resultado *= 3;
         }
 
-        console.log(`3^${expoente} = ${resultado}`);
+        alert(`3^${expoente} = ${resultado}`);
     }
-
 }
