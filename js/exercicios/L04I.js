@@ -18,6 +18,6 @@ export function L04I(){
     
     } while (valor >= 0);
     
-    console.log(`Maior valor informado: ${maiorValor}`);
-    console.log(`Menor valor informado: ${menorValor}`);    
+    alert(`Maior valor informado: ${maiorValor}`);
+    alert(`Menor valor informado: ${menorValor}`);    
 }    
